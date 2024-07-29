@@ -4,7 +4,7 @@ const Dashboard = () => {
   return (
     <div className={css.container}>
       <div className={css.dashboard}>
-        <div className={css.dashboardHead}>
+        <div className={`${css.dashboardHead} theme-container`}>
           <div className={css.head}>
             <span>Dashboard</span>
 
@@ -16,10 +16,10 @@ const Dashboard = () => {
               </select>
             </div>
 
+          </div>
             <div className={css.cards}>
               cards
             </div>
-          </div>
         </div>
       </div>
 
