@@ -10,7 +10,7 @@ const Statistics = () => {
         </span>
         <div className={`${css.cards} grey-container`}>
             <div>
-                <div className={css.ArrowIcon}>
+                <div className={css.arrowIcon}>
                     <BsArrowUpShort />
                 </div>
                 <div className={css.card}>
@@ -28,6 +28,7 @@ const Statistics = () => {
                 <span>Daily Average</span><span>${groupNumber(2000)}</span>
             </div>
         </div>
+        
     </div>
   )
 }
